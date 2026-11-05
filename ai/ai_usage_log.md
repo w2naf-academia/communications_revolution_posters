@@ -15,4 +15,4 @@ Required per University of Scranton AI Policy, HamSCI Generative AI Use Agreemen
 - **Sections/Files Affected**: `CLAUDE.md`, `README.md`, `.claude/rules/ai-governance.md`, `.claude/template.json`, `ai/ai_usage_log.md` (placeholders filled in, project content rules added, `python-code.md` removed); `source_photos/IMG_5578.heic`, `IMG_5579.heic`, `IMG_5580.heic` (original photos, unchanged); `transcription/board_1_1775-1848.md`, `board_2_1850-1940.md`, `board_3_1940-2020.md` (new)
 - **Nature of Contribution**: Transcription (AI reading of cropped, zoomed photos, word for word, errors kept); suggested corrections listed in each file's transcriber notes (AI-generated, not yet checked against sources); project setup
 - **Human Review Status**: Pending review (transcriptions need proofreading against the photos; suggested corrections need fact-checking)
-- **Git Hash**: [fill in after committing]
+- **Git Hash**: af38ab6 (branch instantiate-and-transcribe, PR w2naf-academia/communications_revolution_posters#1)
