@@ -1,0 +1,14 @@
+{
+  "role": "template",
+  "repo": "w2naf-academia/ai_project_template",
+  "siblings": {
+    "HamSCI/ai_project_template": {
+      "branch": "main",
+      "reviewed_commit": "d4a133e51e30457f0b8bd046fc31b57275e21eb8"
+    },
+    "w3usr/ai_project_template": {
+      "branch": "main",
+      "reviewed_commit": "de919faad62c01ddc36fe12b0321db4e508703f4"
+    }
+  }
+}
