@@ -27,8 +27,8 @@ All AI-assisted work on this project must comply with the following policies. Vi
 - Do not use AI to generate or substantially shape proposal review content unless explicitly authorized
 - Do not submit confidential or unpublished data to AI tools
 
-### 5. {{FUNDER}}-Specific Expectations
-{{Replace this section with funder-specific AI-use expectations and deliverable requirements. If the project has additional funders beyond NASA/NSF, list them here. If the project is internally funded or unfunded, replace this section with: "This project has no external funder beyond the standing institutional policies above." Add additional bodies (DARPA, DOE, ARRL, FRC, etc.) as needed.}}
+### 5. Funder-Specific Expectations
+This project has no external funder beyond the standing institutional policies above.
 
 ## AI Usage Logging Requirements
 

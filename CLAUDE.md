@@ -1,21 +1,21 @@
-# {{PROJECT_NAME}}
+# communications_revolution_posters
 
 ## Project Overview
-{{ONE-PARAGRAPH PROJECT DESCRIPTION — what is being written or built, its purpose, and audience.}}
+Charlie Cebula, AC2ZU, built a three-board tri-fold exhibit, *The Communications Revolution, 1775–2020*, tracing communication from Revolutionary War pamphlets, flags and pigeons through the telegraph, radio, television, the transistor, satellites and the internet to smartphones and social media. The physical boards may have been lost. This project transcribes them from photographs (`source_photos/`) and re-typesets them as three HamSCI-style posters for public outreach (club meetings, hamfests, HamSCI events, classrooms).
 
-**PI**: {{PI_NAME_AND_AFFILIATION}}
-**Collaborators**: {{COLLABORATORS}}
-**Funder**: {{FUNDER}}{{FUNDING_AMOUNT_OPTIONAL}}
-**Project period**: {{PROJECT_PERIOD}}
+**PI**: Nathaniel A. Frissell, W2NAF, University of Scranton
+**Collaborators**: Charlie Cebula, AC2ZU (author of the original exhibit content)
+**Funder**: None (unfunded outreach)
+**Project period**: November 2026 –
 
 ## Project Goal
-{{PROJECT_GOAL — 1-3 sentences.}}
+Produce three print-ready HamSCI-style posters, one per original tri-fold board, that faithfully preserve Charlie Cebula's content and credit him as author. Corrections to the original text are made only after fact-checking, and are recorded separately so the verbatim transcription remains the source of record.
 
 ## Repository Structure
 This project starts from the `ai_project_template` scaffold. Add or remove top-level directories to match your project type. The scaffold expects:
 
 ```
-{{REPO_NAME}}/
+communications_revolution_posters/
 ├── CLAUDE.md
 ├── README.md
 ├── .gitignore
@@ -25,12 +25,19 @@ This project starts from the `ai_project_template` scaffold. Add or remove top-l
 │   ├── commands/commit.md        ← /commit workflow
 │   └── rules/
 │       ├── ai-governance.md
-│       ├── latex-writing.md      ← delete if no LaTeX
-│       └── python-code.md        ← delete if no Python
+│       └── latex-writing.md
 ├── ai/
 │   └── ai_usage_log.md           ← mandatory AI session log
-└── {{PROJECT-SPECIFIC FOLDERS}}  ← e.g., manuscript/, src/, posters/, proposal/
+├── source_photos/                ← original phone photos of the three boards (HEIC), source of record
+├── transcription/                ← verbatim Markdown transcription, one file per board, with transcriber notes
+└── posters/                      ← poster sources and built PDFs (HamSCI poster template)
 ```
+
+## Content Rules
+- `transcription/` is verbatim: it records what the boards say, errors included. Do not "fix" it; unreadable spots are marked `[?word?]` or `[illegible]` until a human (ideally Charlie) resolves them from the original.
+- Corrections for the posters are proposed in the transcriber notes and adopted only after fact-checking against authoritative sources and human review.
+- Charlie Cebula, AC2ZU, is credited as the author of the exhibit content on every poster.
+- The HamSCI poster template lives in `~/hamsci/presentation_templates/` (repo `HamSCI/presentation_templates`); do not copy-modify it here beyond what the template expects.
 
 ## Curated Documents
 

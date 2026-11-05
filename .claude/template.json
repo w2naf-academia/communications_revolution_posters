@@ -1,14 +1,9 @@
 {
-  "role": "template",
-  "repo": "w2naf-academia/ai_project_template",
-  "siblings": {
-    "HamSCI/ai_project_template": {
-      "branch": "main",
-      "reviewed_commit": "d4a133e51e30457f0b8bd046fc31b57275e21eb8"
-    },
-    "w3usr/ai_project_template": {
-      "branch": "main",
-      "reviewed_commit": "de919faad62c01ddc36fe12b0321db4e508703f4"
-    }
-  }
+  "role": "project",
+  "upstream": "w2naf-academia/ai_project_template",
+  "upstream_branch": "main",
+  "synced_commit": "edc5b711421c3b1211e8cc60d3c355731de786f4",
+  "synced_on": "2026-11-05",
+  "customized": ["CLAUDE.md", ".claude/rules/ai-governance.md", "ai/ai_usage_log.md", "README.md"],
+  "not_adopted": [".claude/rules/python-code.md"]
 }
