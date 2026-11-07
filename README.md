@@ -19,8 +19,11 @@ The original boards may have been lost, so this repository rebuilds them from ph
 - `source_photos/`: the original photos of the three boards, the source of record.
 - `transcription/`: a word-for-word Markdown transcription of every panel, errors included.
   Each file ends with transcriber notes that list unclear readings and suggested corrections.
-- `posters/`: poster sources and built PDFs, using the HamSCI poster template from
-  [`HamSCI/presentation_templates`](https://github.com/HamSCI/presentation_templates).
+- `posters/`: the three posters (PowerPoint and PDF), the script that generates them from the
+  transcription using the HamSCI poster template from
+  [`HamSCI/presentation_templates`](https://github.com/HamSCI/presentation_templates), and a
+  check that every transcribed line made it onto its poster. See
+  [`posters/README.md`](posters/README.md).
 
 ## Status
 
@@ -28,7 +31,8 @@ The original boards may have been lost, so this repository rebuilds them from ph
 - [x] First-pass transcription (AI-assisted; needs human proofreading against the photos)
 - [ ] Unclear readings resolved, ideally by Charlie
 - [ ] Corrections fact-checked and approved
-- [ ] Posters typeset with the HamSCI poster template
+- [x] First-draft posters typeset from the verbatim text
+- [ ] Posters checked in PowerPoint, and corrections applied once approved
 
 ## Credits
 

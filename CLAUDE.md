@@ -30,13 +30,14 @@ communications_revolution_posters/
 │   └── ai_usage_log.md           ← mandatory AI session log
 ├── source_photos/                ← original phone photos of the three boards (HEIC), source of record
 ├── transcription/                ← verbatim Markdown transcription, one file per board, with transcriber notes
-└── posters/                      ← poster sources and built PDFs (HamSCI poster template)
+└── posters/                      ← build_posters.py (generates the .pptx from transcription/), check_text.py, built .pptx/.pdf, previews
 ```
 
 ## Content Rules
 - `transcription/` is verbatim: it records what the boards say, errors included. Do not "fix" it; unreadable spots are marked `[?word?]` or `[illegible]` until a human (ideally Charlie) resolves them from the original.
 - Corrections for the posters are proposed in the transcriber notes and adopted only after fact-checking against authoritative sources and human review.
 - Charlie Cebula, AC2ZU, is credited as the author of the exhibit content on every poster.
+- The posters are generated from `transcription/` by `posters/build_posters.py`. Approved corrections must be applied in the build step, never by editing the verbatim transcription. After any change, rerun `posters/build_posters.py` and `posters/check_text.py`; never hand-edit the generated `.pptx`. Rebuild the PDFs and previews in the same commit.
 - The HamSCI poster template lives in `~/hamsci/presentation_templates/` (repo `HamSCI/presentation_templates`); do not copy-modify it here beyond what the template expects.
 
 ## Curated Documents

@@ -16,3 +16,16 @@ Required per University of Scranton AI Policy, HamSCI Generative AI Use Agreemen
 - **Nature of Contribution**: Transcription (AI reading of cropped, zoomed photos, word for word, errors kept); suggested corrections listed in each file's transcriber notes (AI-generated, not yet checked against sources); project setup
 - **Human Review Status**: Pending review (transcriptions need proofreading against the photos; suggested corrections need fact-checking)
 - **Git Hash**: af38ab6 (branch instantiate-and-transcribe, PR w2naf-academia/communications_revolution_posters#1)
+
+## [2026-11-07 15:15 UTC]
+- **Tool**: Claude (Anthropic), claude-opus-5-5
+- **Session Purpose**: Typeset the three Communications Revolution posters on the HamSCI 48 × 36 in poster template, using the verbatim transcription text with no corrections. At N. A. Frissell's direction, all footer logos except HamSCI were removed.
+- **Sections/Files Affected**:
+  - `posters/build_posters.py`: new; generates the posters from `transcription/`.
+  - `posters/check_text.py`: new; checks that every transcribed line is on its poster.
+  - `posters/requirements.txt`, `posters/README.md`: new.
+  - `posters/poster_{1_1775-1848,2_1850-1940,3_1940-2020}.pptx`, with `.pdf` and `preview_*.png` versions: generated.
+  - `README.md`, `CLAUDE.md`: layout description, status list, and a rule that posters are generated, never hand-edited.
+- **Nature of Contribution**: Code generation (layout and text-fitting script, text check); layout design
+- **Human Review Status**: Pending review. The posters were checked only in LibreOffice renders, not yet in PowerPoint. The text is the unproofread verbatim transcription.
+- **Git Hash**: [fill in after committing]
