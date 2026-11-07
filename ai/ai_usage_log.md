@@ -28,4 +28,4 @@ Required per University of Scranton AI Policy, HamSCI Generative AI Use Agreemen
   - `README.md`, `CLAUDE.md`: layout description, status list, and a rule that posters are generated, never hand-edited.
 - **Nature of Contribution**: Code generation (layout and text-fitting script, text check); layout design
 - **Human Review Status**: Pending review. The posters were checked only in LibreOffice renders, not yet in PowerPoint. The text is the unproofread verbatim transcription.
-- **Git Hash**: [fill in after committing]
+- **Git Hash**: 7516d0e (branch typeset-posters, PR w2naf-academia/communications_revolution_posters#2)
